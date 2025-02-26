@@ -6,6 +6,6 @@ import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <div className="font-sans">
-    <RouterProvider router={mainRouter}></RouterProvider>
+    <RouterProvider router={mainRouter} basename="meetmeet"></RouterProvider>
   </div>
 );
